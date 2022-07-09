@@ -1,0 +1,26 @@
+{
+  "name": "@jsonhub/server",
+  "version": "1.0.0",
+  "description": "Server for JSONHub",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node ./src/server.ts",
+    "start:nodemon": "nodemon",
+    "start:prod": "npm run build && node ./dist/src/server.js",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Stathis `Moose` Stathopoulos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.3",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1"
+  }
+}
