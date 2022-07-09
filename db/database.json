@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "uuid": "a609f5a2-7ea5-4a02-b1d0-0720c8ec64b3",
+      "username": "moose",
+      "files": [
+        {
+          "uuid": "6db7b139-f664-4e73-9d49-430191f6ded5",
+          "name": "Test"
+        }
+      ]
+    }
+  ]
+}
